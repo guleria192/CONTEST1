@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 25px;
+    height: 30px;
+}
+
+.positiveValues{
+    color: green;
+}
+
+.negativeValues{
+    color: red;
+}
+
+#table{
+    width: 50vw;
+    background-color: rgb(8, 7, 7);
+    color: rgb(212, 203, 203);
+    height: 500px;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid white;
+    text-align: center;
+    
+}
